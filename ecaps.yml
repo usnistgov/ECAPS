@@ -1,0 +1,34 @@
+name: ecaps
+channels:
+  - conda-forge
+  - phausamann
+dependencies:
+  - python==3.9
+  - notebook
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - xarray
+  - pip
+  - nb_conda_kernels
+  - ca-certificates
+  - certifi
+  - openssl
+  - ipykernel
+  - umap-learn
+  - ipywidgets==7.7
+  - adjusttext
+  - jupyterlab==3.6.5
+  - nodejs
+  - argcomplete
+  - py-xgboost-cpu
+  - optuna
+  - plotly
+  - scikit-fda
+  - sklearn-xarray
+  - netcdf4
+  - flox
+prefix: /Users/bps1/mambaforge/envs/ecaps
