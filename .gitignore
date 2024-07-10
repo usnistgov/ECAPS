@@ -1,0 +1,10 @@
+ClassifierScores/*
+HP_Param_Scores/*
+Figures/*
+NetCDFs/*
+.ipynb_checkpoints/*
+Scripts/.ipynb_checkpoints/*
+*.pyc
+*.nc
+*.pid
+*.txt
