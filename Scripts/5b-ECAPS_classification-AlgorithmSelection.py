@@ -35,7 +35,8 @@ from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.metrics import accuracy_score
 
 #open the data
-date = '20240628153159'
+with open('netCDF_date.txt', 'r') as file:
+    date = file.read()
 eval_class = 'Class2'
 pipe = 'AllColors-AllStates_RNV_None2_None3_None4_MinMaxScaler_None6'
 X = xr.open_dataset(f'NetCDFs/{date}_preprocessed_X_example.nc')[pipe]
@@ -79,7 +80,7 @@ for train_ix, test_ix in o_cv.split(X, Y):
         study.optimize(lambda trial: cd.objective(trial, clsfr,
                                                   X_train, Y_train,
                                                   eval_class),
-                       n_trials=50, n_jobs=32)
+                       n_trials=25, n_jobs=-1)
         # save the results in a csv incase we want it later
         study.trials_dataframe().to_csv(f'{newpath}/{date}_OStudy_{clsfr}_{i}.csv')
         # grab the best trial and get the inner cv score and hyper parameters out of it
@@ -111,6 +112,7 @@ for train_ix, test_ix in o_cv.split(X, Y):
         df_out = pd.DataFrame(out_dict, index=[i])
         df_out.to_csv(f'{newpath}/{date}_OuterLoop_{clsfr}_{i}.csv')
         o_results = pd.concat([o_results, df_out])
+        print(f'loop {i}, {clsfr} finished evaluating')
     i+=1
 # output a dataframe with all of our outer loop results    
 o_results.to_csv(f'{newpath}/{date}_FullLoopSet.csv')

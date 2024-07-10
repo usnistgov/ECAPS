@@ -32,7 +32,8 @@ from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.metrics import accuracy_score
 
 #open the data
-date = '20240628153159'
+with open('netCDF_date.txt', 'r') as file:
+    date = file.read()
 X = xr.open_dataset(f'NetCDFs/{date}_preprocessed_X_example.nc')
 Y = xr.open_dataset(f'NetCDFs/{date}_preprocessed_Y_example.nc')
 eval_class = 'Class2'

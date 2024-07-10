@@ -17,7 +17,9 @@ from sklearn import svm
 from sklearn.neighbors import KNeighborsClassifier
 import warnings
 
-date = '20240703130237' # NOTE: This will need to be adjusted to when you generated your preprocessed data
+with open('netCDF_date.txt', 'r') as file:
+    date = file.read()
+
 ds_pp_X = xr.open_dataset(f'NetCDFs/{date}_preprocessed_X_example.nc')
 ds_pp_y = xr.open_dataset(f'NetCDFs/{date}_preprocessed_Y_example.nc')
 print('ds_pp* made')
