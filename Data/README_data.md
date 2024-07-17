@@ -40,4 +40,4 @@ Bradley P. Sutliff, Peter A. Beaucage, Debra J. Audus, Sara V. Orski, and Tyler 
 
 If you use the data, please cite:
 
-Sutliff, Bradley P., Goyal, Shailja, Martin, Tyler B., Beaucage, Peter A., Audus, Debra J., Orski, Sara V. (2023), Correlating Near-Infrared Spectra to Bulk Properties in Polyolefins, National Institute of Standards and Technology, https://doi.org/10.18434/mds2-3022 (Accessed 2024-07-03)
+Sutliff, Bradley P., Goyal, Shailja, Martin, Tyler B., Beaucage, Peter A., Audus, Debra J., Orski, Sara V. (2023), Correlating Near-Infrared Spectra to Bulk Properties in Polyolefins, National Institute of Standards and Technology, https://doi.org/10.18434/mds2-3022 (Accessed DATE)
