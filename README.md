@@ -2,7 +2,7 @@
 
 This repository supports the following submitted manuscript:
 
-Bradley P. Sutliff, Peter A. Beaucage, Debra J. Audus, Sara V. Orski, and Tyler B. Martin, "Sorting Polyolefins with Near-visible Infrared Spectroscopy: Identification of optimal data analysis pipelines and machine learning classifiers"  *Digital Discovery* **2024** *NUM* (NUM), PAGES DOI:
+Bradley P. Sutliff, Peter A. Beaucage, Debra J. Audus, Sara V. Orski, and Tyler B. Martin, "Sorting Polyolefins with Near-visible Infrared Spectroscopy: Identification of optimal data analysis pipelines and machine learning classifiers"  *Digital Discovery* **2024** *3*, 2341-2355 DOI: 10.1039/D4DD00235K
 
 which compares near-visible infrared spectroscopy coupled with various data preprocessing steps and machine learning techniques to classify polyolefin subclasses and enable better sorting of polyolefins.
 The repository is intended for the following use cases:
@@ -106,7 +106,7 @@ Staff website: https://www.nist.gov/people/bradley-sutliff
 
 If you use the code, please cite our submitted manuscript:
 
-Bradley P. Sutliff, Peter A. Beaucage, Debra J. Audus, Sara V. Orski, and Tyler B. Martin, "Sorting Polyolefins with Near-visible Infrared Spectroscopy: Identification of optimal data analysis pipelines and machine learning classifiers" *Digital Discovery* 2024 NUM (NUM), DOI:
+Bradley P. Sutliff, Peter A. Beaucage, Debra J. Audus, Sara V. Orski, and Tyler B. Martin, "Sorting Polyolefins with Near-visible Infrared Spectroscopy: Identification of optimal data analysis pipelines and machine learning classifiers" *Digital Discovery* **2024** *3*, 2341-2355 DOI: 10.1039/D4DD00235K
 
 If you use the data, please cite:
 
