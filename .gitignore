@@ -1,3 +1,4 @@
+## For this repo
 ClassifierScores/*
 HP_Param_Scores/*
 Figures/*
@@ -8,3 +9,6 @@ Scripts/.ipynb_checkpoints/*
 *.nc
 *.pid
 *.txt
+
+## vs code
+.vscode/
